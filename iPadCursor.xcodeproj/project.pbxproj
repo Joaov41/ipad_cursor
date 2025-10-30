@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63A8B7602BDAA67800000011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7402BDAA67800000001 /* AppDelegate.swift */; };
+		63A8B7612BDAA67800000012 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7412BDAA67800000002 /* MenuBarController.swift */; };
+		63A8B7613BDAA67800000052 /* CursorHighlightOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7413BDAA67800000042 /* CursorHighlightOverlay.swift */; };
+		63A8B7622BDAA67800000013 /* CursorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7422BDAA67800000003 /* CursorEngine.swift */; };
+		63A8B7632BDAA67800000014 /* CursorRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7432BDAA67800000004 /* CursorRenderer.swift */; };
+		63A8B7642BDAA67800000015 /* CursorEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7442BDAA67800000005 /* CursorEventMonitor.swift */; };
+		63A8B7652BDAA67800000016 /* MomentumPhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7452BDAA67800000006 /* MomentumPhysics.swift */; };
+		63A8B7662BDAA67800000017 /* MagneticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7462BDAA67800000007 /* MagneticEngine.swift */; };
+		63A8B7672BDAA67800000018 /* ShapeMorpher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7472BDAA67800000008 /* ShapeMorpher.swift */; };
+		63A8B7682BDAA67800000019 /* HoverEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7482BDAA67800000009 /* HoverEffects.swift */; };
+		63A8B7692BDAA6780000001A /* AccessibilityScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7492BDAA6780000000A /* AccessibilityScanner.swift */; };
+		63A8B76A2BDAA6780000001B /* ElementTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B74A2BDAA6780000000B /* ElementTracker.swift */; };
+		63A8B76B2BDAA6780000001C /* PerformanceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B74B2BDAA6780000000C /* PerformanceMonitor.swift */; };
+		63A8B76C2BDAA6780000001D /* MathHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B74C2BDAA6780000000D /* MathHelpers.swift */; };
+		63A8B76D2BDAA6780000001E /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B74D2BDAA6780000000E /* PreferencesWindow.swift */; };
+		63A8B76E2BDAA6780000001F /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B74E2BDAA6780000000F /* SettingsManager.swift */; };
+		63A8B7732BDAA67800000024 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A8B7712BDAA67800000022 /* Cocoa.framework */; };
+		63A8B7742BDAA67800000025 /* AccessibilityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7752BDAA67800000026 /* AccessibilityConstants.swift */; };
+		63A8B7762BDAA67800000027 /* ControlWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7772BDAA67800000028 /* ControlWindow.swift */; };
+		63A8B7782BDAA67800000029 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B7792BDAA6780000002A /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63A8B7402BDAA67800000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63A8B7412BDAA67800000002 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		63A8B7413BDAA67800000042 /* CursorHighlightOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorHighlightOverlay.swift; sourceTree = "<group>"; };
+		63A8B7422BDAA67800000003 /* CursorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorEngine.swift; sourceTree = "<group>"; };
+		63A8B7432BDAA67800000004 /* CursorRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorRenderer.swift; sourceTree = "<group>"; };
+		63A8B7442BDAA67800000005 /* CursorEventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorEventMonitor.swift; sourceTree = "<group>"; };
+		63A8B7452BDAA67800000006 /* MomentumPhysics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumPhysics.swift; sourceTree = "<group>"; };
+		63A8B7462BDAA67800000007 /* MagneticEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticEngine.swift; sourceTree = "<group>"; };
+		63A8B7472BDAA67800000008 /* ShapeMorpher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeMorpher.swift; sourceTree = "<group>"; };
+		63A8B7482BDAA67800000009 /* HoverEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverEffects.swift; sourceTree = "<group>"; };
+		63A8B7492BDAA6780000000A /* AccessibilityScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityScanner.swift; sourceTree = "<group>"; };
+		63A8B74A2BDAA6780000000B /* ElementTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementTracker.swift; sourceTree = "<group>"; };
+		63A8B74B2BDAA6780000000C /* PerformanceMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceMonitor.swift; sourceTree = "<group>"; };
+		63A8B74C2BDAA6780000000D /* MathHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathHelpers.swift; sourceTree = "<group>"; };
+		63A8B74D2BDAA6780000000E /* PreferencesWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		63A8B74E2BDAA6780000000F /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		63A8B7702BDAA67800000021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A8B7712BDAA67800000022 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		63A8B7722BDAA67800000023 /* iPad Cursor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad Cursor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A8B7752BDAA67800000026 /* AccessibilityConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityConstants.swift; sourceTree = "<group>"; };
+		63A8B7772BDAA67800000028 /* ControlWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlWindow.swift; sourceTree = "<group>"; };
+		63A8B7792BDAA6780000002A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A8B72E2BDAA67700000011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A8B7732BDAA67800000024 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63A8B7102BDAA67700000002 = {
+			isa = PBXGroup;
+			children = (
+				63A8B7112BDAA67700000003 /* iPadCursorApp */,
+				63A8B7182BDAA6770000000A /* Resources */,
+				63A8B7192BDAA6770000000B /* Frameworks */,
+				63A8B71A2BDAA6770000000C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63A8B7112BDAA67700000003 /* iPadCursorApp */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B7792BDAA6780000002A /* main.swift */,
+				63A8B7122BDAA67700000004 /* App */,
+				63A8B7132BDAA67700000005 /* CursorEngine */,
+				63A8B7142BDAA67700000006 /* Animation */,
+				63A8B7152BDAA67700000007 /* UIDetection */,
+				63A8B7162BDAA67700000008 /* Utilities */,
+				63A8B7172BDAA67700000009 /* Settings */,
+			);
+			path = iPadCursorApp;
+			sourceTree = "<group>";
+		};
+		63A8B7122BDAA67700000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B7402BDAA67800000001 /* AppDelegate.swift */,
+				63A8B7412BDAA67800000002 /* MenuBarController.swift */,
+				63A8B7413BDAA67800000042 /* CursorHighlightOverlay.swift */,
+				63A8B7772BDAA67800000028 /* ControlWindow.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		63A8B7132BDAA67700000005 /* CursorEngine */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B7422BDAA67800000003 /* CursorEngine.swift */,
+				63A8B7432BDAA67800000004 /* CursorRenderer.swift */,
+				63A8B7442BDAA67800000005 /* CursorEventMonitor.swift */,
+				63A8B7452BDAA67800000006 /* MomentumPhysics.swift */,
+				63A8B7462BDAA67800000007 /* MagneticEngine.swift */,
+			);
+			path = CursorEngine;
+			sourceTree = "<group>";
+		};
+		63A8B7142BDAA67700000006 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B7472BDAA67800000008 /* ShapeMorpher.swift */,
+				63A8B7482BDAA67800000009 /* HoverEffects.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		63A8B7152BDAA67700000007 /* UIDetection */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B7492BDAA6780000000A /* AccessibilityScanner.swift */,
+				63A8B74A2BDAA6780000000B /* ElementTracker.swift */,
+			);
+			path = UIDetection;
+			sourceTree = "<group>";
+		};
+		63A8B7162BDAA67700000008 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B74B2BDAA6780000000C /* PerformanceMonitor.swift */,
+				63A8B74C2BDAA6780000000D /* MathHelpers.swift */,
+				63A8B7752BDAA67800000026 /* AccessibilityConstants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		63A8B7172BDAA67700000009 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B74D2BDAA6780000000E /* PreferencesWindow.swift */,
+				63A8B74E2BDAA6780000000F /* SettingsManager.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		63A8B7182BDAA6770000000A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B7702BDAA67800000021 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63A8B7192BDAA6770000000B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B7712BDAA67800000022 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63A8B71A2BDAA6770000000C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B7722BDAA67800000023 /* iPad Cursor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A8B7302BDAA67700000013 /* iPad Cursor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A8B7512BDAA67800000041 /* Build configuration list for PBXNativeTarget "iPad Cursor" */;
+			buildPhases = (
+				63A8B72D2BDAA67700000010 /* Sources */,
+				63A8B72E2BDAA67700000011 /* Frameworks */,
+				63A8B72F2BDAA67700000012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPad Cursor";
+			productName = "iPad Cursor";
+			productReference = 63A8B7722BDAA67800000023 /* iPad Cursor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A8B7202BDAA67700000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					63A8B7302BDAA67700000013 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 63A8B7502BDAA67800000040 /* Build configuration list for PBXProject "iPadCursor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A8B7102BDAA67700000002;
+			productRefGroup = 63A8B71A2BDAA6770000000C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A8B7302BDAA67700000013 /* iPad Cursor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A8B72F2BDAA67700000012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A8B72D2BDAA67700000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A8B76E2BDAA6780000001F /* SettingsManager.swift in Sources */,
+				63A8B7612BDAA67800000012 /* MenuBarController.swift in Sources */,
+				63A8B7672BDAA67800000018 /* ShapeMorpher.swift in Sources */,
+				63A8B7692BDAA6780000001A /* AccessibilityScanner.swift in Sources */,
+				63A8B76A2BDAA6780000001B /* ElementTracker.swift in Sources */,
+				63A8B7642BDAA67800000015 /* CursorEventMonitor.swift in Sources */,
+				63A8B7682BDAA67800000019 /* HoverEffects.swift in Sources */,
+				63A8B76C2BDAA6780000001D /* MathHelpers.swift in Sources */,
+				63A8B7762BDAA67800000027 /* ControlWindow.swift in Sources */,
+				63A8B7613BDAA67800000052 /* CursorHighlightOverlay.swift in Sources */,
+				63A8B7782BDAA67800000029 /* main.swift in Sources */,
+				63A8B7742BDAA67800000025 /* AccessibilityConstants.swift in Sources */,
+				63A8B7622BDAA67800000013 /* CursorEngine.swift in Sources */,
+				63A8B76B2BDAA6780000001C /* PerformanceMonitor.swift in Sources */,
+				63A8B7632BDAA67800000014 /* CursorRenderer.swift in Sources */,
+				63A8B76D2BDAA6780000001E /* PreferencesWindow.swift in Sources */,
+				63A8B7662BDAA67800000017 /* MagneticEngine.swift in Sources */,
+				63A8B7652BDAA67800000016 /* MomentumPhysics.swift in Sources */,
+				63A8B7602BDAA67800000011 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63A8B7522BDAA67800000042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63A8B7532BDAA67800000043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		63A8B7542BDAA67800000044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNG8WV554B;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iPadCursor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63A8B7552BDAA67800000045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNG8WV554B;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iPadCursor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A8B7502BDAA67800000040 /* Build configuration list for PBXProject "iPadCursor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A8B7522BDAA67800000042 /* Debug */,
+				63A8B7532BDAA67800000043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A8B7512BDAA67800000041 /* Build configuration list for PBXNativeTarget "iPad Cursor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A8B7542BDAA67800000044 /* Debug */,
+				63A8B7552BDAA67800000045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63A8B7202BDAA67700000001 /* Project object */;
+}

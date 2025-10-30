@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>iPad Cursor</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.example.iPadCursor</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>iPad Cursor requires Apple Events to control the mouse pointer.</string>
+	<key>NSHumanReadableComputerName</key>
+	<string>iPad Cursor for macOS</string>
+	<key>NSPrivacyAccessedAPICategoryMouse</key>
+	<array>
+		<string>AXIsProcessTrusted</string>
+	</array>
+	<key>NSRequiresAquaSystemAppearance</key>
+	<true/>
+</dict>
+</plist>
